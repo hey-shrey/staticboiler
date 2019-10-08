@@ -19,7 +19,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "localcss": "./build.sh"
+    "css": "./build.sh",
+    "localcss": "./build.sh --watch"
   },
   "keywords": [],
   "author": "",
