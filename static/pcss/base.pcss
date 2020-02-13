@@ -1,10 +1,46 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "./utils/fonts.pcss";
+@import "./components/_header.pcss";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    font-family: sans-serif;
+    font-family: "TT Norms";
     letter-spacing: 1.2px;
     color: white;
-    background-color: red;
+    background-color: #24305e;
+    margin: 40px;
+}
+.base-dark {
+    color: #24305e;
+}
+.base-dark--light {
+    color: #374785;
+}
+.base-blue {
+    color: #a8d0e6;
+}
+.base-link {
+    color: #f8e9a1;
+}
+.base-orange {
+    color: #f76c6c;
+}
+.base-white {
+    color: #ffffff;
+}
+li {
+    list-style: none;
+}
+.site-footer {
+    padding: 0 40px;
+    a {
+        color: color(#f8e9a1 a(80%));
+        text-decoration: none;
+        &:hover {
+            color: #f8e9a1;
+        }
+    }
 }

@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-    require('tailwindcss'),
     require('postcss-import'),
     require('postcss-mixins'),
     require('postcss-simple-vars'),
